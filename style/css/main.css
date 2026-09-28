@@ -1,0 +1,351 @@
+body {
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+
+@font-face {
+    font-family: 'ArialRegular';
+    src: url('../../style/Fonts/ENG/Arial.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'ArialBold';
+    /* src: url('../../style/Fonts/ENG/Arial Bold.ttf') format('truetype'); */
+    src: url('../../style/Fonts/ENG/Acumin-Variable-Concept.ttf') format('truetype');
+}
+
+
+@font-face {
+    font-family: 'FontTC';
+    src: url('../../style/Fonts/TC/DFHeiHK-W7.otf') format('truetype');
+}
+
+@font-face {
+    font-family: 'FontSC';
+    /* src: url('../../style/Fonts/TC/DFHeiHK-W7.otf') format('truetype'); */
+    /* src: url('../../style/Fonts/SC/MSJHBD.TTC') format('truetype'); */
+    src: url('../../style/Fonts/SC/Microsoft JhengHei Bold.ttf') format('truetype');
+}
+
+
+.desktop-section {
+    display: block;
+}
+
+.mobile-section {
+    display: none;
+    position: relative;
+}
+
+/* Styles for desktop devices */
+@media only screen and (min-width: 760px) {
+    /* CSS rules for desktop devices go here */
+}
+
+/* Styles for mobile devices */
+@media only screen and (max-width: 759px) {
+    /* CSS rules for mobile devices go here */
+
+    .desktop-section {
+        display: none;
+    }
+
+    .mobile-section {
+        display: block;
+    }
+
+    .lang-options-btn {
+        width: 19% !important;
+        /* border: 1px solid red !important; */
+    }
+
+    .lang-options-content {
+        width: 15% !important;
+        bottom: -91% !important;
+    }
+
+    .lang-options-text {
+        padding: 2px !important;
+        font-size: 16px !important;
+    }
+
+    .mobile-register-form {
+        color: #191333;
+        padding: 4% 6%;
+        width: 100%;
+    }
+
+    .mobile-register-form input {
+        width: 100%;
+    }
+
+    .policy-field {
+        margin-top: 5%;
+    }
+
+    .modal-content {
+        font-size: 12px !important;
+    }
+
+    button.btn.btn-secondary.btn-ok {
+        font-size: 12px !important;
+    }
+}
+
+body.lang-tc {
+    font-family: 'FontTC', sans-serif;
+}
+
+body.lang-sc {
+    font-family: 'FontSC', sans-serif;
+}
+
+body.lang-en {
+    font-family: 'ArialBold', sans-serif;
+}
+
+body.bg-video {
+    background-color: #dfdded !important;
+}
+
+.bg-login {
+    background-color: #dedaed !important;
+}
+
+.bg-white {
+    background-color: #fff;
+}
+
+.main-container {
+    width: 100%;
+    max-width: 2500px;
+    margin: 0 auto;
+}
+
+.full-img {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.full-img-no-max {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.mobile-section-lanscape {
+    display: none;
+}
+
+.bnt-submit {
+    background-color: #ffffff;
+    padding: 4px 16px;
+    width: fit-content;
+    border: 2px solid #000;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 12px;
+}
+
+.row {
+    padding: 5px 0;
+}
+
+.login-page img {
+    width: 100%;
+}
+
+.acknowledae-field {
+    margin-top: 1%;
+}
+
+.btn-ok-field {
+    margin-top: 2%;
+}
+
+.btn-ok {
+    background: #7b7979;
+    padding: 4px 25px;
+}
+
+.inut-label {
+    /* margin-bottom: 1px;
+    font-size: 16px; */
+}
+
+input::placeholder {
+    font-size: 16px;
+}
+
+@media (max-width: 600px) {
+    .col-style {
+        margin-bottom: 7%;
+    }
+/* 
+    .login-page {
+        padding: 3% 3.8%;
+    } */
+}
+
+img.logo {
+    width: 100%;
+}
+
+.clear-both {
+    clear: both;
+}
+
+.lang-selection {
+    border: 0;
+}
+
+button.btn.btn-secondary.btn-ok {
+    padding: 10px 40px;
+    background-color: #95a3a9;
+    font-size: 1vw;
+}
+
+::placeholder {
+    /* Most modern browsers support this */
+    color: #bebebe;
+    font-size: 12px;
+}
+
+:-ms-input-placeholder {
+    /* Internet Explorer 10-11 */
+    color: #bebebe;
+    font-size: 12px;
+}
+
+::-ms-input-placeholder {
+    /* Microsoft Edge */
+    color: #bebebe;
+    font-size: 12px;
+}
+
+select.lang-selection {
+    appearance: none;
+    /* Remove default appearance */
+    -webkit-appearance: none;
+    /* Remove default appearance for Chrome/Safari */
+    -moz-appearance: none;
+    /* Remove default appearance for Firefox */
+    background: url('../../style/images/lang-select-arrow.jpg') no-repeat right center;
+    /* Add custom arrow */
+    color: white !important;
+    background-size: 22%;
+    background-color: transparent;
+    font-size: 13px;
+    width: 85px;
+}
+
+select.lang-selection.lang-en {
+    font-family: 'ArialBold';
+    letter-spacing: 0.2pt;
+}
+
+.required-txt {
+ font-family: 'FontSC', sans-serif;   
+}
+
+select option {
+    color: black !important;
+}
+
+.lang-selection {
+    color: black !important;
+}
+
+/* input,
+input::placeholder {
+    font: 1.25rem/3 sans-serif;
+    letter-spacing: 5px;
+} */
+
+.desktop-image-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.video-button-container {
+    margin: 0;
+}
+
+.video-button-container .btn {
+    padding: 4px 16px;
+    border-radius: 3px;
+    font-size: 12px;
+    margin: 0;
+    width: 100%;
+    text-align: center;
+}
+
+.video-button-container .btn.s1 {
+    background: white;
+    color: black;
+    cursor: pointer;
+}
+
+.notice-msg-field {
+    margin-bottom: 12px;
+}
+
+.company-field {
+    margin-top: 40px;
+}
+
+.policy-field {
+    margin-top: 40px;
+}
+
+.policy-view {
+    margin-top: 10px;
+    cursor: pointer;
+    font-size: 13px;
+}
+
+.policy-field > button{
+    padding: 3px 5px 0px 5px;
+}
+
+.modal-content {
+    font-size: 1vw;
+}
+
+/* Styles for mobile devices */
+@media only screen and (max-width: 759px) {
+
+    /* CSS rules for mobile devices go here */
+    .policy-field {
+        margin-top: 5%;
+    }
+
+    .modal-content {
+        font-size: 12px !important;
+    }
+
+    button.btn.btn-secondary.btn-ok {
+        font-size: 12px !important;
+    }
+
+    .select-lang-container{
+        position: relative;
+        padding-left: 1%;
+        float: right;
+    }
+
+    .video-button-container .btn.s2 {
+        padding-left: 0;
+        padding-bottom: 10px;
+    }
+
+    .video-button-container .btn {
+        width: 100%;
+    }
+}
+
+#display-message { 
+    color: black;
+}
